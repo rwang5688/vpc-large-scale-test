@@ -1,7 +1,7 @@
 [
   {
     "ParameterKey": "VPCName",
-    "ParameterValue": "Large-Scale-VPC-eu-west-1"
+    "ParameterValue": "Large-Scale-VPC"
   },
   {
     "ParameterKey": "AvailabilityZones",
