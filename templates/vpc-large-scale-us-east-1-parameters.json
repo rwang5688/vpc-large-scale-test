@@ -1,23 +1,26 @@
 [
   {
-    "ParameterKey": "ProjectName",
-    "ParameterValue": "wangrob-virtual-flow"
+    "ParameterKey": "VPCName",
+    "ParameterValue": "Large-Scale-VPC-us-east-1"
   },
   {
-    "ParameterKey": "VpcCidr0",
-    "ParameterValue": "10.0.0.0/16"
+    "ParameterKey": "AvailabilityZones",
+    "ParameterValue": "us-east-1a,us-east-1b,us-east-1c,us-east-1d,us-east-1e,us-east-1f"
   },
   {
-    "ParameterKey": "VpcCidr1",
-    "ParameterValue": "10.1.0.0/16"
+    "ParameterKey": "NumberOfAZs",
+    "ParameterValue": "6"
   },
   {
-    "ParameterKey": "VpcCidr2",
-    "ParameterValue": "10.2.0.0/16"
+    "ParameterKey": "CreatePublicSubnet",
+    "ParameterValue": "true"
   },
   {
-    "ParameterKey": "VpcCidr3",
-    "ParameterValue": "10.3.0.0/16"
-  }
+    "ParameterKey": "CreateS3Endpoint",
+    "ParameterValue": "true"
+  },
+  {
+    "ParameterKey": "CreateDynamoDBEndpoint",
+    "ParameterValue": "true"
+  }  
 ]
-
